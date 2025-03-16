@@ -1,0 +1,235 @@
+.listing-form {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.listing-form_contents {
+    width: 100%;
+}
+
+.listing-form_ttl {
+    margin-top: 51px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.form__group--image-txt {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    height: 36px;
+    margin-bottom: 5px;
+}
+
+.form__input--image {
+    position: relative;
+    height: 150px;
+    border: dotted 2px #5F5F5F;
+}
+
+.custom-file-label {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    width: 165px;
+    height: 43.46px;
+    margin: 0 auto;
+    color: #FF5655;
+    font-weight: 700;
+    border: solid 2px #FF5555;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 7px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.custom-file-input {
+    display: none;
+}
+
+.file-name {
+    margin-top: 0;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.form__group-content-detail {
+    height: 477px;
+    margin-top: 70px;
+    margin-bottom: 69px;
+}
+
+.form__group--ttl {
+    margin: 0;
+    color: #5F5F5F;
+    border-bottom: solid 1px #5F5F5F;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.form__category-content {
+    height: 235px;
+    margin-top: 36px;
+}
+
+.form__group--txt {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.category-checkbox {
+    display: none;
+}
+
+.category-label {
+    display: inline-block;
+    height: 32px;
+    padding: 4px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid #FF5655;
+    border-radius: 20px;
+    color: #FF5655;
+    text-align: center;
+    cursor: pointer;
+    margin: 34px 7px 0 7px;
+}
+
+.category-checkbox:checked+.category-label {
+    background-color: #FF5655;
+    color: #FFFFFF;
+}
+
+.form__condition-content {
+    height: 93px;
+    margin-top: 65px;
+}
+
+.form__condition-input {
+    position: relative;
+    margin-top: 9px;
+}
+
+.form__condition-input::after {
+    position: absolute;
+    top: 51%;
+    left: 95%;
+    width: 0;
+    height: 0;
+    border-top: 17px solid #5F5F5F;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+    content: "";
+    transform: translateY(-50%);
+}
+
+.form__condition-select {
+    appearance: none;
+    padding: 8px 15px;
+    width: 100%;
+    height: 45px;
+    color: #5F5F5F;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.form__group {
+    margin-top: 36px;
+    height: 81px;
+}
+
+.form__group-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.form__input--text input {
+    padding-left: 15px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #5F5F5F;
+    border-radius: 4px;
+    font-size: 16px;
+    appearance: none;
+}
+
+.form__group-detail {
+    margin-top: 39px;
+    height: 161px;
+}
+
+.form__input--text textarea {
+    padding: 15px;
+    width: 100%;
+    height: 125px;
+    border: 1px solid #5F5F5F;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    appearance: none;
+}
+
+.yen-input {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.yen-input::before {
+    content: "¥";
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.yen-input input {
+    padding-left: 30px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #5F5F5F;
+    border-radius: 4px;
+    font-size: 16px;
+    appearance: none;
+}
+
+.form__error {
+    color: #ff0000;
+    font-size: 18px;
+}
+
+.form__button {
+    margin-top: 118px;
+    margin-bottom: 118px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 680px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: #FF5555;
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
