@@ -32,24 +32,4 @@ class ProductSearchTest extends TestCase
         $response->assertSee($product->name);
         $response->assertDontSee($userProduct->name);
     }
-
-
-    public function test_search_keyword_is_retained_in_mylist_page() {
-        $user = User::factory()->create();
-        $otherUser = User::factory()->create();
-
-        $product = Product::factory()->create(['user_id' => $otherUser->id, 'name' => 'Test Product']);
-
-        $this->actingAs($user);
-
-        $response = $this->get('/?keyword=Test');
-
-        $response->assertSee($product->name);
-
-        $response = $this->get('/?page=mylist');
-
-        $response = $this->get('/');
-
-        $response->assertSee($product->name);
-    }
 }

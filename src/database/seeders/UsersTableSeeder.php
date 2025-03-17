@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'テスト太郎',
             'email' => 'test@example.com',
             'email_verified_at' => null,
-            'password' => bcrypt('test1234'),
+            'password' => bcrypt('password'),
             'remember_token' => Str::random(10),
             'image' => 'profile.jpg',
             'postal_code' => '123-4567',
