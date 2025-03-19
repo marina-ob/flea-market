@@ -1,6 +1,6 @@
 describe('検索フォームのキーワード保持テスト', () => {
   before(() => {
-    cy.visit('http://localhost/login'); //
+    cy.visit('http://localhost/login');
 
     cy.get('input[name="email"]').type('test@example.com');
     cy.get('input[name="password"]').type('password');
